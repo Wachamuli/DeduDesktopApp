@@ -1,0 +1,115 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: "Fira Sans";
+  margin-top: 8%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: "Koulen";
+}
+
+#form-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+#salary-label {
+  position: absolute;
+  top: -6px;
+  font-weight: bold;
+  background: #ffff;
+  left: 10px;
+}
+
+#input {
+  padding: 0.5rem;
+}
+
+#thrash-icon {
+  color: red;
+  position: absolute;
+  right: 1rem;
+  top: 0.7rem;
+}
+
+#calc-btn {
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 3px;
+  background: rgb(255, 241, 42);
+  border: 2px solid black;
+}
+
+#deductions-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 1rem 0rem 1rem 1rem;
+  margin-right: 6rem;
+  font-weight: bold;
+  width: 30%;
+}
+
+#deductions-container label {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.result {
+  font-weight: 400;
+  margin-left: 20px;
+  position: absolute;
+}
+
+#details-container {
+  background: rgb(225, 225, 225);
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+
+.deduction {
+  font-family: "Koulen";
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7px;
+}
+
+#details-container .deduction {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#isr-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 45rem;
+}
+
+#details-container p {
+  margin: 2px;
+}
