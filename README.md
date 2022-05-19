@@ -16,8 +16,12 @@ y comilador respectivamente:
 
 Asegúrate estar en la ruta del proyecto, luego ejecuta el siguiente comando en tu terminal para instalar
 las dependencias:
-`npm install`
+```shell
+npm install
+```
 
 Finalmente, para ejecutar la aplicación:
-`npm run tauri dev`
+```shell
+npm run tauri dev
+```
 
